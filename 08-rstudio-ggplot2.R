@@ -204,8 +204,8 @@ gapminder %>%
   geom_point(aes(alpha = continent)) + 
   scale_x_log10()
 
-# It complains because that's really hard to read, and Hadley Wickham has strong
-# opinions on what makes a good plot (and he's usually right). ggplot wants
+# It complains because that's really hard to read, and has strong
+# opinions on what makes a good plot (and it's usually right). ggplot wants
 # to help you make good plots. But it does let you do it.
 # 
 # We can easily fit a simple linear model to the data by adding another layer,
